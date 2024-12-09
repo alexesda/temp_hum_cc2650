@@ -48,7 +48,7 @@ class SensorTag(btle.Peripheral):
         return hum
 
 # Replace with your sensors' MAC addresses
-mac_address_sensor = "24:71:89:07:75:01"  # AAL house
+mac_address_sensor = "MAC_ADDRESS"  # AAL house
 
 try:
     sensortag = SensorTag(mac_address_sensor)
